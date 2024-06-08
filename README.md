@@ -1,4 +1,4 @@
-# Marketing Campaign KPI project
+# Marketing campaign KPI project
 
 ## Overview
 This project was made to analyze how differente marketing campaigns performed by extracting KPIs (Key Performance Indicators). In the analysis, SQL was used as the primary tool for calculating KPIs, and Power BI was used to visualize the results in a dashboard.
@@ -25,7 +25,7 @@ The dataset contains information about marketing campaigns, including:
 ## KPIs calculated
 - Return on marketing investment (ROMI)
 - Click-through rate (CTR)
-- Conversion rate (Leads to Sales)
+- Conversion rate (Leads to sales)
 - Average order value (AOV)
 - Cost per click (CPC)
 - Cost per lead (CPL)
