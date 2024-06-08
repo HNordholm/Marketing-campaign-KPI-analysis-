@@ -17,3 +17,6 @@ Conversionrate = DIVIDE(SUM(Marketing[orders]),SUM(Marketing[leads]))
 
 ## Gross profit 
 grossprofit = SUM(Marketing[revenue]) - SUM(Marketing[mark_spent])
+
+## CTR
+CTR = DIVIDE(SUM(Marketing[clicks]),SUM(Marketing[impressions]))
