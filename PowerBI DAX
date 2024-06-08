@@ -1,0 +1,19 @@
+# Power BI (DAX)
+
+## ROMI
+ROMI = DIVIDE(SUM(Marketing[revenue])-SUM(Marketing[mark_spent]),SUM(Marketing[mark_spent]))
+
+## AOV 
+AOV = DIVIDE(SUM(Marketing[revenue]),SUM(Marketing[orders]),0)
+
+## CPC
+CPC = DIVIDE(SUM(Marketing[mark_spent]),SUM(Marketing[clicks]))
+
+## CPL
+CPL = DIVIDE(SUM(Marketing[mark_spent]),SUM(Marketing[leads]))
+
+## Coversionrate (CR)
+Conversionrate = DIVIDE(SUM(Marketing[orders]),SUM(Marketing[leads]))
+
+## Gross profit 
+grossprofit = SUM(Marketing[revenue]) - SUM(Marketing[mark_spent])
